@@ -1,12 +1,29 @@
-# React + Vite
+# Calculadora de Empréstimo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de front-end desenvolvido em React para simulação de empréstimos, com integração a uma API REST. O sistema permite ao usuário informar datas, valor do empréstimo e taxa de juros, exibindo o detalhamento das parcelas em uma tabela organizada.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Simulação de empréstimos com entrada de datas, valor e taxa de juros.
+- Validação de datas (data final maior que inicial, primeiro pagamento entre as datas).
+- Exibição detalhada das parcelas em tabela agrupada.
 
-## Expanding the ESLint configuration
+## Como rodar localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone o repositório:**
+   ```bash
+   git clone <url-do-repositorio>
+   cd frontend-calculadora
+2. **Instale as dependências**
+   ```bash
+    npm install
+3. **Configure o backend:**
+   1. Certifique-se de que a API está rodando e acessível pelo endereço configurado em .env.development (por padrão, http://localhost:8080).
+4. **Inicie o projeto:**
+5. **Acesse no navegador:**
+   ```bash
+    http://localhost:5173
+
+6. **Deploy**
+   1. O front-end está publicado e disponível online pelo Render.
+   2. Acesse a aplicação em: https://frontend-calculadora.onrender.com
