@@ -22,3 +22,5 @@ coverage/
 
 # Diretórios de uploads ou arquivos temporários da aplicação
 /public/uploads
+
+node_modules/
