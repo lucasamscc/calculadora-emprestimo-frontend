@@ -12,7 +12,7 @@ Este é um projeto de front-end desenvolvido em React para simulação de empré
 
 1. **Clone o repositório:**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/lucasamscc/calculadora-emprestimo-frontend.git
    cd frontend-calculadora
 2. **Instale as dependências**
    ```bash
