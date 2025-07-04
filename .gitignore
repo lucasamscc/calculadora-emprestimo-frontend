@@ -1,0 +1,24 @@
+# Ambientes (.env files)
+.env
+.env.*.local
+
+# Cache do Vite
+.vite
+
+# Arquivos de build
+build/
+
+# Relatórios de testes (se usar)
+coverage/
+
+# Arquivos de sistema e travas
+*.lock
+*.tmp
+*.temp
+*.bak
+
+# Arquivos gerados por IDEs
+*.iml
+
+# Diretórios de uploads ou arquivos temporários da aplicação
+/public/uploads
