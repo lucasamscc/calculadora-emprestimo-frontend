@@ -25,5 +25,5 @@ Este é um projeto de front-end desenvolvido em React para simulação de empré
     http://localhost:5173
 
 6. **Deploy**
-   1. O front-end está publicado e disponível online pelo Render.
-   2. Acesse a aplicação em: https://frontend-calculadora.onrender.com
+   1. A aplicação está publicada online pelo Render.
+   2. Acesse a aplicação em: [calculadora-de-emprestimo](https://calculadora-emprestimo-frontend.onrender.com/)
